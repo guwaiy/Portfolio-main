@@ -51,7 +51,7 @@ maximizeBtns.forEach((btn) => {
   });
 });
 
-var swiper = new Swiper(".swiper", {
+let swiper = new Swiper(".swiper", {
   preventClicks: true,
   noSwiping: true,
   freeMode: false,
